@@ -27,9 +27,9 @@ namespace Homework16._10
         }
 
         public static bool operator <(Advertisement ad1, Advertisement ad2)
-            {
+        {
             return ad1.Price < ad2.Price;
-            }
+        }
     }
     enum Category
     {
